@@ -642,14 +642,16 @@ section#contact :-ms-input-placeholder {
 }
 
 .footer {
-  padding: 25px 0;
+  padding: 25px;
   text-align: center;
+  justify-content: center;
+  align-self: center;
 }
 
 .footer span.copyright {
   font-size: 90%;
   line-height: 40px;
-  text-transform: none;
+  text-align: center;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -679,5 +681,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #a88c24;
 }
